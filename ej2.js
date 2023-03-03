@@ -5,11 +5,13 @@ function calcularDni(num){
     console.log(num)
     if (num = 0 || num > 99999999){
         console.log("Numero no valido")
+        alert("Número no válido")
         return
     }
     let letraDni = LETRAS[resto]
     console.log(letraDni)
-    return letraDni
+    var dniCompleto = entrada + letraDni
+    alert("El dni completo es "+ dniCompleto)
 }
 let entrada = prompt("Introduzca el número del DNI")
 calcularDni(entrada)
