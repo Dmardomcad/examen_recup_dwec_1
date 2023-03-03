@@ -10,3 +10,5 @@ function calcularFactorial(numero){
 // Pedimos el número por pantalla
 let entrada = prompt("Numero")
 console.log(calcularFactorial(entrada))
+
+// Se ha usasdo el IDE visual studio y para depurar se ha usado varios console.log
